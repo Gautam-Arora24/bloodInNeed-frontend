@@ -1,4 +1,4 @@
-![Screenshot](/readme-images/OK.png)
+![Screenshot](/readme-images/Blooddrop.png)
 
 ### What is Blood In Need?
 Blood In Need is an effort to make donation of blood easier. Any user can request a donor available in his/her city with same blood group and the donor would be sent a request in real time. I have tried my hard to make this website easy to use. Any ideas, suggestions or bug reports, reach me out to on my social media handles. Peace!!!
