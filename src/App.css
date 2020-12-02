@@ -354,7 +354,7 @@ select:focus {
   }
   .bullets {
     margin-left:50%;
-    width: 90%;
+    width: 100%;
     padding-left:10px;
     padding-right:12px;
   }
