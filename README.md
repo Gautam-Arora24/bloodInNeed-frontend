@@ -16,16 +16,17 @@ Blood In Need is an effort to make donation of blood easier. Any user can reques
 ![Screenshot](/readme-images/ss1.png)
 
 
-### Doctor's Dashboard where doctor can add details about patient
+### Another screenshot of home page
 ![Screenshot](/readme-images/ss2.png)
 
 
-### Home View of App
+### Signup View
+![Screenshot](/readme-images/ss3.png)
+
+
+### User View
 ![Screenshot](/readme-images/ss4.png)
 
-
-### Patient View of App
-![Screenshot](/readme-images/ss3.png)
 
 
 # Tech Stack
