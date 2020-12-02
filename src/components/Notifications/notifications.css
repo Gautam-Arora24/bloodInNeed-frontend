@@ -1,0 +1,23 @@
+@media (max-width: 750px) {
+  .card-title {
+    padding-top: 40px !important;
+  }
+  .card {
+    height: 300px !important;
+    width: 230px;
+    font-size: 8px !important;
+  }
+}
+
+.card {
+  font-size: 20px !important;
+  margin: 20px auto;
+  height: 180px;
+}
+
+.request {
+  text-align: center;
+  color: #c50f0f;
+  font-style: italic;
+  margin: 120px;
+}

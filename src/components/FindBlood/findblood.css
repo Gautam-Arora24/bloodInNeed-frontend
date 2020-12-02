@@ -1,0 +1,64 @@
+.back {
+  margin-top: 80px;
+  margin-left: 15px;
+  margin-bottom: 30px;
+  font-size: 16px;
+  color: #c50f0f;
+}
+i {
+  margin-right: 6px;
+}
+
+.headings StyledTableCell {
+  font-size: 18px;
+}
+table {
+  margin-top: 20px;
+  font-size: 18px;
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+td {
+  width: 33%;
+}
+.heading {
+  color: #c50f0f;
+  font-style: italic;
+}
+.sorry {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.sorry-img {
+  height: 350px;
+  width: 350px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.sorry h3 {
+  margin-top: 600px;
+  color: #c50f0f;
+  font-style: italic;
+}
+@media (max-width: 690px) {
+  .heading {
+    font-size: 19px;
+  }
+  .sorry-img {
+    height: 200px;
+    width: 200px;
+  }
+  .sorry h3 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,104 @@
+.loader.three-dots:before,
+.loader.three-dots:after,
+.loader.three-dots {
+  border-radius: 50%;
+  width: 1em;
+  height: 1em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load-three-dots 1.8s infinite ease-in-out;
+  animation: load-three-dots 1.8s infinite ease-in-out;
+}
+.loader.three-dots {
+  margin: auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader.three-dots:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader.three-dots:after {
+  left: 3.5em;
+}
+.loader.three-dots:before,
+.loader.three-dots:after {
+  content: "";
+  position: absolute;
+  top: 0;
+}
+@-webkit-keyframes load-three-dots {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em black;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0 black;
+  }
+}
+@keyframes load-three-dots {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3 black;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0 black;
+  }
+}
+
+/*BEAT */
+.loader.beats,
+.loader.beats:before,
+.loader.beats:after {
+  background: black;
+  -webkit-animation: load-beats 1s infinite ease-in-out;
+  animation: load-beats 1s infinite ease-in-out;
+  width: 1em;
+  height: 4em;
+}
+.loader.beats:before,
+.loader.beats:after {
+  position: absolute;
+  top: 0;
+  content: "";
+}
+.loader.beats:before {
+  left: -1.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader.beats {
+  text-indent: -9999em;
+  margin: auto;
+  position: relative;
+  font-size: 11px;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader.beats:after {
+  left: 1.5em;
+}
+@-webkit-keyframes load-beats {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 0 black;
+    height: 4em;
+  }
+  40% {
+    box-shadow: 0 -2em black;
+    height: 5em;
+  }
+}
