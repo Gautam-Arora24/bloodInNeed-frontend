@@ -7,7 +7,7 @@ export default function Landing() {
   return (
     <>
       <div className="landing">
-        <img className="curved" src={curved} />
+        <img className="curved" src={curved} alt="curved" />
 
         <div className="center">
           <h4 className="text-center"> Blood is meant to circulate</h4>
@@ -27,7 +27,7 @@ export default function Landing() {
         <h2> Features of this App</h2>
         <div className="feature-body">
           <div className="image">
-            <img src={vector} />
+            <img src={vector} alt="vector" />
           </div>
           <div className="points">
             <div className="bullets">
@@ -95,7 +95,6 @@ export default function Landing() {
               </li>
               <li>Drink more liquids over a period of 24 hours</li>
               <li>Remove the bandage after few hours</li>
-              <li>Don't do vigrous workout & give your body rest</li>
             </ul>
           </div>
         </div>

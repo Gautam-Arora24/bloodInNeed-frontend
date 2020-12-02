@@ -10,7 +10,9 @@ export default function Footer() {
               <h6>About</h6>
               <p class="text-justify">
                 Blood In Need is an effort to make donation of blood easier. I
-                have tried my hard to make this website easy to use.{" "}
+                have tried my hard to make this website easy to use. Any ideas,
+                suggestions or bug reports, reach me out to on my social media
+                handles. Peace!!!{" "}
               </p>
             </div>
 

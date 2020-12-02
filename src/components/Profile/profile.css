@@ -52,3 +52,14 @@ small {
     height: 300px;
   }
 }
+@media (max-width:830px){
+  .card-body h4{
+    font-size:16px;
+  }
+  .card-body p{
+    font-size:11px;
+  }
+  .find{
+    font-size:12px;
+  }
+}

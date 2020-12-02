@@ -107,6 +107,9 @@ function Signup() {
             </select>
             <label htmlFor="address">State</label>
             <select name="state" value={state} onChange={handleChange("state")}>
+              <option default value="">
+                ...
+              </option>
               {uniqueStates.map((item, index) => (
                 <option value={item}>{item}</option>
               ))}
