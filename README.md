@@ -6,6 +6,7 @@ Blood In Need is an effort to make donation of blood easier. Any user can reques
 ### Further Improvements
 1) I need to add map to show the user exact locations of donors
 2) Need to convert this site to PWA
+3) Need to make website responsive
 
 
 ---
