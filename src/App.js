@@ -32,7 +32,7 @@ export default function App() {
   }
 
   const httpLink = createHttpLink({
-    uri: "https://blood-in-need.herokuapp.com/",
+    uri: "https://bloodinneed-backend-production.up.railway.app/",
   });
   const authLink = setContext((_, { headers }) => {
     // get the authentication token from local storage if it exists
